@@ -1,0 +1,21 @@
+Get http://localhost:1200/users
+
+
+###
+
+
+POST http://localhost:1200/users
+Content-Type: application/json
+{
+    "name": "Jjjj",
+    "email": "jjjjj@example.com"
+} 
+
+
+
+POST http://localhost:1200/users/login
+Content-Type: application/json
+{
+    "name": "Jjjj",
+    "email": "jjjjj@example.com"
+} 
